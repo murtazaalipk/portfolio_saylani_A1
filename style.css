@@ -1,0 +1,330 @@
+body{
+padding: 0;
+margin: 0;
+
+}
+.edit{
+    background-color: #363543;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%; 
+
+
+}
+.edit1{
+    background-color: #282834;
+    background-size: cover;
+    background-position: center;
+    height: 150vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+
+}
+.edit3{
+    background-color: #363543;
+    background-size: cover;
+    background-position: center;
+    height: 9.6vh;
+    width: 100%; 
+    display: flex;
+    justify-content: center;
+
+}
+.circle{
+    background-color:#282834;
+    height: 460px;
+    width: 460px;
+    border-radius: 230px;
+    position: absolute;
+    z-index: 1;
+}  
+.align{
+    display: flex;
+    justify-content: center;
+}
+.text{
+    position: absolute;
+    z-index: 2;
+    margin-left: 10%;
+    margin-top: 50px;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+.name{
+    color: white;
+    font-size: 35px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+
+}
+.fa-brands{
+    color: aliceblue;
+}
+.fa-solid{
+    color: aliceblue;
+}
+.niv{
+    margin-right: 20%;
+}
+
+nav{
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ padding-top: 15px;
+ padding-left: 10%;
+ padding-right: 10%;
+ font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+
+}
+nav ul li a{
+ color: aliceblue;
+ text-decoration: none;
+ font-weight: bold;
+ text-transform: capitalize;
+
+
+}
+nav ul li a:hover{
+    color: #ffbf00;
+    transition: .4s;
+}
+.fin{
+    padding: 5px;
+}
+
+.png{
+
+    height: 100%;
+    position: absolute;
+    z-index: 2;
+
+}
+.im{
+    line-height: 0px;
+    font-size: 52px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: gray;
+    font-weight: lighter;
+    
+}
+.abc{
+    font-size: 55px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.p{
+    color: gray;
+}
+.middle-icon{
+ background-color: #363543;
+ height: 18vh;
+ width: 80%;
+ margin-top:  -50px;
+ -webkit-box-shadow: 0 0 10px black;
+  box-shadow: 0 0 10px black;
+  z-index: 2;
+  display: flex; 
+  flex-direction: row;
+  justify-content: space-around; 
+  align-items: center ;     
+  position: absolute;
+
+}
+.edit-middle-icon{
+    background-color: #282834;
+    height: 10vh;
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.color{
+    color: aliceblue;
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.profile{
+    height: 80%;
+}
+.img1{
+    height: 50%;
+    margin-right: 10px;
+}
+.img2{
+    height: 150%;
+}
+.img3{
+    height: 40%;
+    margin-left: 10px;
+}
+.img4{
+    height: 40%;
+    margin-right: 10px;
+}
+.m{
+    height: 40px;
+    color: #ffbf00;
+
+}
+.margin{
+    color: aliceblue;
+    margin-left: 65%;
+    margin-top: 4%;
+    position: absolute;
+    z-index: 2;
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.para{
+    font-size: x-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:#c7cbcc ;
+}
+.show{
+    font-size: small;
+    color: #ffbf00;
+}
+.ser{
+    font-size: large;
+    color: grey;
+}
+
+.ie{
+  height: 30px;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+.what{
+  margin-top: 160px;
+  color: antiquewhite;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.first{
+    display: flex;
+    justify-content: space-between;
+    color: #ffbf00;
+}
+.sub{
+    font-size: small;
+    color: grey;
+}
+.suq{
+    font-size: small;
+    color: grey;
+    margin-left: 5px;
+}
+.sup{
+    margin-right: 65px;
+
+}
+.abcd{
+    height: 100px;
+}
+.image{
+    margin-top: 160px;
+}
+.abcde{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.syeda{
+    font-size: 15px;
+    color: antiquewhite;
+    margin-right: 120px;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.syedb{
+    font-size: 15px;
+    color: antiquewhite;
+    margin-right: 80px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.syedc{
+    font-size: 15px;
+    color: antiquewhite;
+    margin-right: 75px;
+    margin-left: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.abcdef{
+    color: gray;
+    font-size: small;
+}
+.pqrs{
+    display: flex;
+    margin-top: -190px;
+    justify-content: space-around;
+    color: antiquewhite;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+   
+}
+.lmn{
+    height: 40vh;
+    width: 25%;
+    background-color: #363543;
+    -webkit-box-shadow: 0 0 10px black;
+    box-shadow: 0 0 10px black;
+
+
+}
+.lmna{
+    height: 40vh;
+    width: 25%;
+    background-color: #363543;
+    margin-left: 10%;
+    -webkit-box-shadow: 0 0 10px black;
+     box-shadow: 0 0 10px black;
+
+
+}
+.lmnb{
+    height: 40vh;
+    width: 25%;
+    background-color: #363543;  
+    margin-right: 10%;
+    -webkit-box-shadow: 0 0 10px black;
+     box-shadow: 0 0 10px black;
+
+}
+.xyz{
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.abcp{
+    font-size: small;
+    color: grey;
+}
+.hmargin{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.under{
+    height: 1vh;
+    width: 35%;
+    background-color: #ffbf00;
+    margin-top: -10px;
+    margin-bottom: 30px;
+}
